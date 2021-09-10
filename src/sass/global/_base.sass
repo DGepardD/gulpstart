@@ -1,0 +1,41 @@
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  font-size: 16px
+  font-family: $baseFont
+  font-weight: 300
+
+h2,h3
+  font-family: $secondFont
+
+img
+  display: block
+  max-width: 100%
+  height: auto
+.container
+  max-width: 1200px
+  padding-left: 15px
+  padding-right: 15px
+  margin-left: auto
+  margin-right: auto
+.row
+  display: flex
+  flex-wrap: wrap
+.section
+  padding-top: 78px
+  
+  &__title
+    font-size: 30px
+    color: #555555
+    text-align: center
+    +em('margin-bottom', 30, 25)
+  &__text
+    text-align: center
+    max-width: 725px
+    margin-left: auto
+    margin-right: auto
+    +em('margin-bottom', 16, 40)
+    +em('line-height', 16, 28)

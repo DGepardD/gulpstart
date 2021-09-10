@@ -1,0 +1,13 @@
+=fonts($fFace,$fName,$fWeight,$fStyle: normal)
+  @font-face
+    font-family: "#{$fFace}"
+    font-weight: $fWeight
+    font-style: $fStyle
+    font-display: swap
+    src: url("../fonts/#{$fName}.woff2") format("woff2"), url("../fonts/#{$fName}.woff") format("woff")
+
+// Конвертация из px в em
+// Как использовать: +em("margin-bottom", 16, 28)
+
+=em($el, $a, $b)
+  #{$el}: ($b/$a)+em
