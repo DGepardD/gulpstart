@@ -1,0 +1,33 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "my first gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daler Abdukhalimov <dalergepard@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "browser-sync": "^2.27.5",
+    "browserslist": "^4.14.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.39.2"
+  },
+  "browserslist": [
+    "last 20 versions",
+    "> 1%"
+  ],
+  "dependencies": {}
+}
